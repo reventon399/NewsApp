@@ -9,7 +9,7 @@ import Foundation
 
 struct Constants {
     static let apiKey = "b5ff9d33bbd24e0199a5b687245f3d8e"
-    static let url = URL(string: "https://newsapi.org/v2/top-headlines?country=ru&pageSize=10&apiKey=b5ff9d33bbd24e0199a5b687245f3d8e")
+    static let url = URL(string: "https://newsapi.org/v2/top-headlines?country=us&pageSize=20&apiKey=b5ff9d33bbd24e0199a5b687245f3d8e")
 }
 
 final class APIManager {

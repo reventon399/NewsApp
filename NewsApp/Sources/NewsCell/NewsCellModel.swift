@@ -15,12 +15,11 @@ final class NewsCellModel: Codable {
     var imageData: Data? = nil
     var clicsCount: Int
     
-    init(title: String, subtitle: String, url: String?, imageURL: URL?, imageData: Data? = nil, clicsCount: Int) {
+    init(title: String, subtitle: String, url: String?, imageURL: URL?, clicsCount: Int) {
         self.title = title
         self.subtitle = subtitle
         self.url = url
         self.imageURL = imageURL
-        self.imageData = imageData
         self.clicsCount = clicsCount
     }
 }
